@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Whack a Mouse...</title>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body name="header" onload="getCookies();">
+        <div id="game">
+            <h1>
+                !!Play a Game!! <br />
+                &#128001; &nbsp;Whack a Mouse...!&nbsp;&#128000;
+            </h1>
+        </div>
+        <header>
+            <!----------------------------------Score ,High Score & Start,Stop-------------------->
+            <span>Your Score:-</span>&nbsp;&nbsp;&nbsp;&nbsp;<span id="score" name="score">0</span><br />
+            <div>
+                <button id="btnStart" style="float: left; margin-left: 10%; margin-top: 20px;" onclick="Start();">Start &nbsp;<i class="fa fa-play" aria-hidden="true"></i></button><br />
+                <button id="btn" style="float: right; margin-right: 10%;" onclick="Stop();">Stop &nbsp;<i class="fa fa-stop" aria-hidden="true"></i></button><br />
+            </div>
+            <div style="text-align: center;"><span>High Score:-&nbsp;&nbsp;</span><span id="highScore">0&nbsp;&nbsp;</span></div>
+        </header>
+
+        <main id="main">
+            <!-------------------------------------------Count Down---------------------------------->
+            <div id="timer"><span style="color: #03014d !important;">Count Down:&nbsp;&nbsp; </span><span id="waiting_time" style="color: #03014d !important;"></span></div>
+
+            <!------------------------------------------- Playing area ------------------------------>
+            <section id="playingGround">
+                <section class="container">
+                    <div class="mousemountain">
+                        <div class="mountain"></div>
+                        <div class="mouse"></div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="mousemountain">
+                        <div class="mountain"></div>
+                        <div class="mouse"></div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="mousemountain">
+                        <div class="mountain"></div>
+                        <div class="mouse"></div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="mousemountain">
+                        <div class="mountain"></div>
+                        <div class="mouse"></div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="mousemountain">
+                        <div class="mountain"></div>
+                        <div class="mouse"></div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="mousemountain">
+                        <div class="mountain"></div>
+                        <div class="mouse"></div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="mousemountain">
+                        <div class="mountain"></div>
+                        <div class="mouse"></div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="mousemountain">
+                        <div class="mountain"></div>
+                        <div class="mouse"></div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="mousemountain">
+                        <div class="mountain"></div>
+                        <div class="mouse"></div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="mousemountain">
+                        <div class="mountain"></div>
+                        <div class="mouse"></div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="mousemountain">
+                        <div class="mountain"></div>
+                        <div class="mouse"></div>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="mousemountain">
+                        <div class="mountain"></div>
+                        <div class="mouse"></div>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </body>
+    <script type="text/javascript" src="main.js"></script>
+</html>
