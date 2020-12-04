@@ -1,5 +1,6 @@
 const container = document.querySelectorAll(".container");
 const length = container.length;
+var doubleClick = 0;
 
 var interval = setInterval(() => {
     /**************************************Generate a random number***********************************/
@@ -20,8 +21,11 @@ let score = 0;
 container.forEach((e) => {
     e.addEventListener("click", () => {
         if (e.classList.contains("active")) {
+            if (doubleClick == 0) {
             score++;
+            e.classList.remove("active");
             document.getElementById("score").innerHTML = score;
+        }
         }
     });
 });
