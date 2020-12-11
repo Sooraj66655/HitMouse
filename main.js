@@ -50,7 +50,7 @@ function getCookies() {
         var HighScore = secArray[1];
         document.getElementById("highScore").innerText = HighScore;
     }
-    setCookies();
+   // setCookies();
 }
 
 /**************************************************Strat Button********************************/
